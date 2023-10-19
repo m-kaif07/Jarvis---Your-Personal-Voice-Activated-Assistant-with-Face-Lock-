@@ -15,14 +15,25 @@ Music Playback: Enjoy music hands-free. Jarvis can play your favorite songs and 
 Customizable: Tailor Jarvis to your specific needs. Add new features, integrations, or commands to suit your preferences and workflow.
 
 Technologies Used:
+
 Python
+
 Speech Recognition
+
 pyttsx3
+
 Custom Plugins and Integrations
+
 How to Get Started:
+
 Clone the repository.
+
 Install the necessary dependencies.
+
 Customize Jarvis by adding your own commands and integrations.
+
 Enjoy a more streamlined and efficient digital experience!
+
 Contribute:
+
 We welcome contributions, bug reports, and feature requests. Feel free to fork the repository, make improvements, and submit pull requests to enhance Jarvis.

@@ -12,12 +12,12 @@ engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 
-# Defining Speak function
+# ---------- Defining Speak function --------
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
 
-# Greet GM/GF/GE
+# --------- Greet GM/GF/GE --------
 def wishMe():
     current_hour = int(datetime.datetime.now().hour)
     if current_hour >= 0 and current_hour < 12:
@@ -28,7 +28,7 @@ def wishMe():
         speak("Good Evening!")
     speak("I'm Jarvis, sir. How may I help you?")
 
-# Taking command from the user
+# -------- Taking command from the user -------
 def takeCommand():
     r = sr.Recognizer()
     with sr.Microphone() as source: 
@@ -46,15 +46,6 @@ def takeCommand():
         print("Say that again, please...")
         return "None"
 
-# send email funtion 
-def sendEmail(to, content):
-    server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.ehlo()
-    server.starttls()
-    server.login('mkaifcse18@gmail.com', 'zpgu kxyg wugi zdxx')
-    server.sendmail('mkaifcse18@gmail.com', to, content)
-    server.close()
-
 # ----------- search on google -------------
 def google_search(search_query):
     search_url = f"https://www.google.com/search?q={search_query}"
@@ -69,7 +60,7 @@ if __name__ == "__main__":
         print("You said:", query)  # to print the recognized command
         
         # Perform actions based on the recognized command
-        if 'wikipedia' in query:  #if wikipedia found in the query then this block will be executed
+        if 'wikipedia' in query: 
             speak('Searching Wikipedia...')
             query = query.replace("wikipedia", "")
             results = wikipedia.summary(query, sentences=2) 
@@ -82,7 +73,7 @@ if __name__ == "__main__":
             speak(f"The current time is {current_time}")
 
         elif "who are you" in query:
-            speak("My name is Jarvis, I'm a virtual-assistant for automating various daily tasks on computer, such as sending email, opening any application, chatting, etc. I have been created by Mohammad Kaif.")
+            speak("My name is Jarvis, I'm a virtual-assistant for automating various daily tasks on computer, such as sending email, opening any application, searching on google, chatting, etc. I have been created by Mohammad Kaif.")
 
         elif "open google" in query:
             webbrowser.open("quora.com")
@@ -95,7 +86,8 @@ if __name__ == "__main__":
         
         elif "open quora" in query:
             webbrowser.open("quora.com")
-        
+
+        # CHANGE THE LOCATION OF APPS OR FILE
         elif "play music" in query:
             music_dir = 'D:\\music'
             songs = os.listdir(music_dir)

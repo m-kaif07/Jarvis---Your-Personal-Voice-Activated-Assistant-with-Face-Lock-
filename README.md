@@ -31,6 +31,7 @@ Clone the repository.
 Install the necessary dependencies.
 
 Customize Jarvis by adding your own commands and integrations.
+NOTE: DON'T FORGET TO CHANGE YOUR EMAIL AND PASSWORD IN THE send_email FILE, THE LOCATION OF APPLICATIONS (SUCH AS NOTEPAD, GOOGLE, MUSIC, ETC) ON YOUR COMPUTER WHICH YOU WANT IT TO OPEN OR THE LINKS YOU WANT TO OPEN
 
 Enjoy a more streamlined and efficient digital experience!
 

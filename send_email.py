@@ -2,8 +2,8 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-email = "mkaifcse18@gmail.com"
-password = "zpgu kxyg wugi zdxx"
+email = "your_email"
+password = "your_password"
 
 # Dictionary of names and email addresses
 recipient_dict = {

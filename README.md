@@ -1,4 +1,4 @@
-# Jarvis-A-Python-Based-Virtual-Assistant
+# Jarvis-A-Python-Based-Virtual-Assistant-with-Face-Lock
 Jarvis is a powerful and customizable virtual assistant that responds to voice commands, making your daily tasks more efficient and convenient. Developed in Python, this AI-based personal assistant is designed to simplify your digital life.
 
 Key Features:

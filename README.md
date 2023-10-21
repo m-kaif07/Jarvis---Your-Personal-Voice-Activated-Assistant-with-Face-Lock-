@@ -18,13 +18,15 @@ Customizable: Tailor Jarvis to your specific needs. Add new features, integratio
 
 Technologies Used:
 
-Python
+Python,
 
-Speech Recognition
+Speech Recognition,
 
-pyttsx3
+pyttsx3,
 
-Custom Plugins and Integrations
+sapi-5 API,
+
+Custom Plugins and Integrations,
 
 How to Get Started:
 

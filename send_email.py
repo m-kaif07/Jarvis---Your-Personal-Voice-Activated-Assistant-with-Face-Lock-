@@ -2,10 +2,11 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+# CHANGE THE email, passwor TO YOUR EMAIL AND PASSWORD, ONLY THEN EMAIL CAN BE SENT
 email = "your_email"
 password = "your_password"
 
-# Dictionary of names and email addresses
+# Dictionary of names and email addresses of recipients
 recipient_dict = {
     "kaif": "mohammadkaif5849@gmail.com",
     "abuzar": "abuzarsk399@gmail.com",

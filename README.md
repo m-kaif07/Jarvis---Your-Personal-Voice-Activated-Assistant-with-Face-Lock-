@@ -4,7 +4,7 @@ Jarvis is a powerful and customizable virtual assistant that responds to voice c
 Key Features:
 Voice Command Recognition: Jarvis can understand and process your voice commands, allowing you to interact with it naturally.
 
-Face Lock Security: The new Face Lock feature enhances your privacy and security. To gain access to Jarvis, users need to provide their own image for identification. Only authorized users are granted access to the virtual assistant.
+Face Lock Security: The new Face Lock feature enhances your privacy and security. To gain access to Jarvis, users need to provide their own image for identification. Only authorized users are granted access to the virtual assistant. when the program is executed, it asks the user to unlock the program (jarvis) with face, (through live webcam), and then if the face of user matches to the pre-encode face image, the program will proceed and ask user for his Queries. Other wise it'll deny access to Jarvis, and it'll stop the program. ( you need to provide your image location to the 'path' variable inside main function, the face_lock() function then encodes the provide image, and then it is ready for Face Authentication.
 
 Send Emails: Send emails effortlessly with voice commands. Jarvis simplifies the process of composing and sending emails, making communication a breeze. It firstly asks for the recipient's name ( stored in the dictionary of send_email file ), then asks for the content or body, and then sends the Email.
 

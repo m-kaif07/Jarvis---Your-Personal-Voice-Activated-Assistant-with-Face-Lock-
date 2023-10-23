@@ -39,6 +39,19 @@ NOTE: DON'T FORGET TO CHANGE YOUR EMAIL AND PASSWORD IN THE send_email FILE, THE
 
 Enjoy a more streamlined and efficient digital experience!
 
+TYPES OF COMMAND IT CAN TAKE: 
+1- send email- it'll ask 2 things- whom to send and what to send
+2- Open youtube
+3- open google
+4- search on google, it'll ask for what to search, you need to say that query
+5- play music
+6- open notepad or any other app which is present in any query
+7- what's the time now
+8- search on wikipedia - you need to say anything you want to search on wikipedia. for example 'Tom Cruise Wikipedia'
+9- open any other website or app. before that, you need to provide a path or link of that app or website.
+10- Exit or quit
+--> it can be Modified for a number of commands, depending upon the user's requirements, and if integrated with hardware, it can also be used as a robot.
+
 Contribute:
 
 We welcome contributions, bug reports, and feature requests. Feel free to fork the repository, make improvements, and submit pull requests to enhance Jarvis.
